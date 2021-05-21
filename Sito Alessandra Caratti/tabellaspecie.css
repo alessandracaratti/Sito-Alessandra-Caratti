@@ -1,0 +1,60 @@
+body{
+	background-color: lightblue;
+}
+#titolo{
+	font-size: 60px;
+	text-align: center;
+	color: blue;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 	width: 70px;
+	height: 70px;
+}
+#titolobarra{
+	text-align: center;
+}
+#barralaterale{
+	float: right;
+	width: 250px;
+	height: 170px;
+	background-color: #6699ff;
+	text-align: center;
+}
+#bottone{
+	color: black;
+}
+#tabella{
+	width: 50%;
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 0px auto auto auto;
+}
+#td{
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+#th{
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+#footer{
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: blue;
+  color: white;
+}
+@media only screen and (max-width: 500px) {
+  #titolo, #logo, #footer, #barralaterale, #titolobarra, #tabella, #td, #th{
+  	width: 100%;
+  }
+}
